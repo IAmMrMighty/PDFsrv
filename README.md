@@ -8,7 +8,7 @@ Find GhostPCL at: [GhostPCL](https://ghostscript.com/releases/gpcldnld.html)
 See GhostScript license at: [Ghostscript licensing](https://ghostscript.com/licensing/index.html#open-source)  
 
 ```
-usage: PDFsrv [-h] [-host HOST] [-port PORT]  
+usage: server.py [-h] [-host HOST] [-port PORT]  
   
 options:  
   -h, --help  show this help message and exit  

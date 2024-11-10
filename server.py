@@ -93,7 +93,7 @@ def convert_pcl_to_pdf(pcl_data):
 
 ### ARGUMENTS
 
-parser = argparse.ArgumentParser("PDFsrv")
+parser = argparse.ArgumentParser("server.py")
 parser.add_argument("-host", dest="host", default="0.0.0.0", type=str, help="defines on which IP the server listens. Default all -> 0.0.0.0")
 parser.add_argument("-port", dest="port", default=9100, type=int, help="defines on which port the server listens. Default 9100")
 args = parser.parse_args()

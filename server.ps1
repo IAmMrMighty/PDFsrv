@@ -8,7 +8,7 @@
     Autor: Sandro Kohn in 2024
 #>
 
-param([int]$port = 9300)
+param([int]$port = 9100)
 
 $SAVEPATH = "Dokumente\"                                                                                ## Pfad, an dem die PDFs gespeichert werden
 $rootpath = "Dokumente\"
